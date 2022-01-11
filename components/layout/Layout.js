@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
 
-import classes from './Layout.module.css';
+import styles from './Layout.module.css';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -13,7 +13,7 @@ const Layout = props => {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <Header />
-            <main className={classes.main}>{props.children}</main>
+            <main className={styles.main}>{props.children}</main>
             <Footer />
         </Fragment>
     );
