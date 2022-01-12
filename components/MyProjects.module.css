@@ -11,10 +11,13 @@
   margin: 0 auto;
 }
 
+.portfolio__elem {
+  overflow: hidden;
+}
+
 .portfolio__item {
   background: var(--color-light);
   color: var(--color-dark);
-  overflow: hidden;
   padding: 0.5em 0.5em 1em;
   /* border-radius: 8px; */
   /* margin: 0.5em; */
@@ -24,11 +27,29 @@
 }
 
 .portfolio__item:hover {
-  transform: scale(1.04);
-  background: var(--color-off-white);
+  transform: scale(1.02);
 }
 
 .portfolio__item:focus {
   position: relative;
   z-index: 2;
+}
+
+.footer {
+  margin-top: 4em;
+}
+
+.back-to-top-link {
+  cursor: pointer;
+  color: inherit;
+  font-weight: var(--fw-slim);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 0.5em;
+  margin: -0.5em;
+}
+
+.back-to-top-link:hover {
+  color: var(--color-accent);
 }
