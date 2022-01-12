@@ -1,18 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,900&display=swap");
+
 * {
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&display=swap");
 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Sans Pro", monospace;
 
+  --fw-slim: 200;
   --fw-reg: 300;
   --fw-bold: 900;
 
   --color-light: #faf9f6;
-  --color-dark: #292929;
+  --color-dark: #272727;
   --color-off-white: #f0efeb;
   /* --color-accent: #ffd000; */
   /* --color-accent: #f1c40f; */
@@ -43,14 +44,14 @@ html {
 body {
   background: var(--color-light);
   color: var(--color-dark);
-  margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  margin: 0;
 }
 
 section {
-  padding: 5em 1.5em;
+  padding: 5em 1.5em 8em;
 }
 
 strong {
