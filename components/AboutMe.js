@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <section className={styles['about-me']} id="about-me">
             <header>
-                <h3>About me</h3>
+                <h1>About me</h1>
             </header>
             <p>
                 Hi! My name is Timur Borodin and I am a former QA Automation Engineer at IBM, strongly motivated to become a <strong>Web Developer</strong>.
