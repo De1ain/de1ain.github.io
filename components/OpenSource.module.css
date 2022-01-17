@@ -1,0 +1,24 @@
+.open-source {
+  text-align: center;
+}
+
+.list {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.list__item {
+  margin: 3em 0;
+}
+
+.list__link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list__link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
