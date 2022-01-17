@@ -40,7 +40,12 @@ const ContactForm = () => {
                         cols="40"
                     />
                 </span>
-                <button className={styles['form__submit-btn']} type="submit">Send</button>
+                <button
+                    className={styles['form__submit-btn']}
+                    type="submit"
+                >
+                    Send
+                </button>
             </form>
             <SectionFooter />
         </section>
