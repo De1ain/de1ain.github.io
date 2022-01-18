@@ -8,6 +8,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  transition: padding 0.3s;
+  z-index: 1000;
 }
 
 .header--shrunk {
