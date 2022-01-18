@@ -1,10 +1,17 @@
 .header {
+  background: var(--color-dark);
+  color: var(--color-light);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  background: var(--color-dark);
-  color: var(--color-light);
   padding: 1.25em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header--shrunk {
+  padding: 0.3em;
 }
 
 .nav {
