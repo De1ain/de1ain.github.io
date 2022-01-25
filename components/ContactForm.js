@@ -12,7 +12,6 @@ const ContactForm = () => {
             </header>
             <form className={styles.form} autoComplete="off">
                 <span className={styles.form__elem}>
-                    <label className={styles.form__label} htmlFor="name">Name</label>
                     <input
                         className={styles.form__input}
                         id="name"
@@ -22,7 +21,6 @@ const ContactForm = () => {
                     />
                 </span>
                 <span className={styles.form__elem}>
-                    <label className={styles.form__label} htmlFor="email">Email</label>
                     <input
                         className={styles.form__input}
                         id="email"
@@ -32,12 +30,12 @@ const ContactForm = () => {
                     />
                 </span>
                 <span className={styles.form__elem}>
-                    <label className={styles.form__label} htmlFor="message">Message</label>
                     <textarea
                         className={styles.form__textarea}
                         id="message"
                         rows="5"
                         cols="40"
+                        placeholder="Message"
                     />
                 </span>
                 <button
