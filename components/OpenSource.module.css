@@ -4,12 +4,12 @@
 
 .list {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 4em auto 0;
   text-align: left;
 }
 
-.list__item {
-  margin: 3em 0;
+.list__item + .list__item {
+  margin-top: 2em;
 }
 
 .list__link {
