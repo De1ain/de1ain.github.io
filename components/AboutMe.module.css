@@ -3,6 +3,10 @@
   margin: 8em auto;
 }
 
+.brief {
+  margin: 4em auto 0;
+}
+
 .about-me__submit-btn {
   background: var(--color-accent);
   border: 0;
@@ -22,6 +26,6 @@
 }
 
 .about-me__p {
-  margin-top: 3em;
+  margin: 4em auto 0;
   text-align: center;
 }
