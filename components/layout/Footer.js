@@ -7,6 +7,12 @@ import { faLinkedin, faGithub, faGitlab } from "@fortawesome/free-brands-svg-ico
 const Footer = () => {
     return (
         <footer className={styles.footer}>
+            <a
+                href="mailto:borodin.tim@gmail.com"
+                className={styles['footer__link']}
+            >
+                borodin.tim@gmail.com
+            </a>
             <ul className={styles['social-list']}>
                 <li className={styles['social-list__item']}>
                     <a
