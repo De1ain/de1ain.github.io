@@ -15,9 +15,11 @@
   --color-light: #faf9f6;
   --color-dark: #272727;
   --color-off-white: #f0efeb;
-  /* --color-accent: #ffd000; */
-  /* --color-accent: #f1c40f; */
+  --color-gray: #a1a1a1;
+  --color-light-gray: #e4e4e4;
   --color-accent: #ffcc33;
+  --color-accent-2: #e65c00;
+  /* --color-accent-on-light: #505674; */
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -31,14 +33,24 @@
 @media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
+    --fs-h2: 2.5rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
 }
 
+@media (max-width: 545px) {
+  :root {
+    --fs-h1: 3rem;
+    --fs-h2: 1.125rem;
+    --fs-h3: 1.125rem;
+  }
+}
+
 html {
   scroll-behavior: smooth;
+  /* scroll-snap-type: y proximity; */
+  /* scroll-padding-top: 40px; */
 }
 
 body {
@@ -51,7 +63,10 @@ body {
 }
 
 section {
+  /* height: 100vh; */
   padding: 5em 1.5em 8em;
+  /* scroll-snap-align: start; */
+  /* scroll-snap-stop: always; */
 }
 
 strong {
