@@ -48,19 +48,14 @@ const Header = () => {
                             <a className={styles.nav__link}>Open Source</a>
                         </Link>
                     </li>
-                    <li className={styles.nav__item}>
+                    {/* <li className={styles.nav__item}>
                         <Link href='#contact-form'>
                             <a className={styles.nav__link}>Contacts</a>
                         </Link>
-                    </li>
-                    <li className={styles.nav__item}>
-                        <Link href='#'>
-                            <a className={styles.nav__link}>Blog</a>
-                        </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
-        </header >
+        </header>
     );
 };
 
