@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 import styles from './OpenSource.module.css';
 import SectionFooter from './SectionFooter';
-import { faGitHub } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const OpenSource = () => {
     return (
@@ -19,9 +19,11 @@ const OpenSource = () => {
                         <Link href="https://github.com/mattermost/focalboard">
                             <a className={styles.list__link} target="_blank">
                                 mattermost / focalboard
+                                <span className={styles.link__icon}>
+                                    <FontAwesomeIcon icon={faGithub} />
+                                </span>
                             </a>
                         </Link>
-                        <FontAwesomeIcon icon={faGitHub} />
                     </h3>
                     <p>
                         Focalboard is an open source, self-hosted project management tool that&apos;s an alternative to Trello, Notion, and Asana.
@@ -37,9 +39,11 @@ const OpenSource = () => {
                         <Link href="https://github.com/Project-Reclass/toynet-react">
                             <a className={styles.list__link} target="_blank">
                                 Project-Reclass / toynet-react
+                                <span className={styles.link__icon}>
+                                    <FontAwesomeIcon icon={faGithub} />
+                                </span>
                             </a>
                         </Link>
-                        <FontAwesomeIcon icon={faGitHub} />
                     </h3>
                     <p>
                         Project Reclass is a multi-disciplinary nonprofit organization that teaches technical skills to incarcerated veterans.
