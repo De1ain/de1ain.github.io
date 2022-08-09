@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 4em auto 0;
   font-size: var(--fs-h3);
 }
 
@@ -30,14 +30,29 @@
 .form__input,
 .form__textarea {
   width: 100%;
-  padding: 0.5em;
+  padding: 0.7em 1em;
+  border: 0;
+  background: var(--color-light-gray);
+  font-size: var(--fs-body);
+  font-family: inherit;
 }
 
 .form__submit-btn {
-  width: 10em;
-  padding: 0.5em;
+  background: var(--color-accent);
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 1.5px;
   margin: 0 auto;
-  font-size: var(--fs-h3);
+  padding: 0.8em 2.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 200ms ease-in-out;
+}
+
+.form__submit-btn:hover {
+  transform: scale(1.1);
 }
 
 .form__textarea {

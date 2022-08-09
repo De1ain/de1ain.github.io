@@ -5,8 +5,8 @@
 
 .back-to-top-link {
   cursor: pointer;
-  color: inherit;
-  font-weight: var(--fw-slim);
+  color: var(--color-gray);
+  font-weight: var(--fw-reg);
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -15,6 +15,6 @@
 }
 
 .back-to-top-link:hover {
-  color: var(--color-accent);
+  color: var(--color-dark);
   background-color: inherit;
 }
